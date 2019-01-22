@@ -4,12 +4,9 @@ import ReactDOM from 'react-dom'
 import {Provider} from 'react-redux'
 import { combineReducers, compose, createStore, applyMiddleware } from 'redux';
 
-import ClientApp from './components/clientApp'
-import AdminOffice from './components/adminOffice'
-import Portal from './components/portal'
 import allReducers from './reducers/index.js'
 import { routerForBrowser } from 'redux-little-router';
-import { BrowserRouter, Route} from 'react-router-dom'
+
 
 const routes = {
 
